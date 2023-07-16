@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 60%;
+  }
+
+  .row {
+    margin: 0 15px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .mobile-menu span {
+    display: block;
+  }
+  .row {
+    margin: 0 15px;
+  }
+  .hero-text-box {
+    width: 70%;
+  }
+  .main-nav {
+    display: none;
+  }
+  .html {
+    font-size: 57.5%;
+  }
+  .client-photo {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .client-review {
+    width: 90%;
+    float: left;
+    text-align: center;
+  }
+  .contact-section form {
+    width: 100%;
+
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+  .span_1_of_4:nth-child(4) {
+    margin-left: 0;
+  }
+  h4 {
+    font-size: 1.7rem;
+  }
+
+  .html {
+    width: 62.5%;
+  }
+  .logo {
+    margin-top: 2rem;
+    height: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .little-description {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .box p {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  #home .btn {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .span_1_of_4 {
+    width: 100%;
+  }
+  .span_1_of_2 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+    header{
+        height: 65vh;
+    }
+  .span_1_of_4 {
+    width: 100%;
+  }
+  .hero-text-box {
+    margin-top: 2rem;
+  }
+  .btn:link,
+  .btn:visited,
+  .btn {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+}
